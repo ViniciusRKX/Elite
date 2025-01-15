@@ -1,0 +1,42 @@
+header {
+  background-color: rgba(1, 5, 13, 0);
+  box-sizing: border-box;
+  position: fixed;
+  padding: 15px 20px;
+  width: 100%;
+  z-index: 9999999;
+  transition: 0.5s;
+  
+}
+
+.logo img {
+  width: 150px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  
+}
+
+.menu ul {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  color: white;
+  font-weight: 450;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+header.scrolled {
+  background-color: rgb(2, 9, 22);
+  transition: 0.5s;
+}
