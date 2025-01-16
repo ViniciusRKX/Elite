@@ -6,7 +6,6 @@ header {
   width: 100%;
   z-index: 9999999;
   transition: 0.5s;
-  
 }
 
 .logo img {
@@ -18,10 +17,10 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0px 50px;
-  
 }
 
 .menu ul {
+  position: relative;
   display: flex;
   gap: 10px;
   margin: 0;
@@ -33,10 +32,29 @@ header {
   font-weight: 450;
   text-decoration: none;
   font-size: 18px;
-  
 }
 
 header.scrolled {
   background-color: rgb(2, 9, 22);
   transition: 0.5s;
+}
+
+.bi {
+  display: none;
+  color: aliceblue;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+@media (max-width: 782px) {
+  .menu ul {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+  }
 }
