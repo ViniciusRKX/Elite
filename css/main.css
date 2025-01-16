@@ -66,3 +66,44 @@ body {
   margin-top: 50px;
 }
 
+
+@media (max-width: 782px) {
+
+  .carousel-item span {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.0;
+    transition: 0.25s;
+  
+  }
+  
+  .carousel-item a {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    z-index: 1000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: 0.25s;
+  }
+
+  .ftestudio a {
+    top: 65%;
+  }
+  
+
+
+}
+
