@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(2, 9, 22);
+}
+
 .carousel-item {
   width: 100%;
   height: 100vh;
@@ -56,17 +60,45 @@
   z-index: 1;
 }
 
-.sobre img {
-  width: 100%;
-}
-
-body {
-  background-color: rgb(2, 9, 22);
-}
-
 .sobre {
-  margin-top: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
 }
+.sobre img {
+  
+  max-width: 100vw;
+  height: auto;
+  transition: box-shadow 0.3s ease;
+}
+
+.elitegrupo{
+  position: relative;
+  overflow: hidden;
+}
+.elitegrupo p {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  z-index: 9999;
+  bottom: 10vh;
+  padding: 20px;
+}
+.elitegrupo::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(2, 9, 22, 0.058) 50%,
+    rgb(2, 9, 22)80%
+  );
+  z-index: 1;
+}
+
 
 @media (max-width: 782px) {
   .carousel-item span {

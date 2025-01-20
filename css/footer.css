@@ -20,14 +20,13 @@ footer {
 
 }
 .informacoes h1 {
-  box-sizing: border-box;
   color: white;
   font-weight: 800;
 }
 .informacoes span {
-  box-sizing: border-box;
   color: white;
 }
-.informacoes i {
+
+.informacoes p {
   color: white;
 }
