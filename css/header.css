@@ -39,12 +39,6 @@ header.scrolled {
   transition: 0.5s;
 }
 
-.bi {
-  display: none;
-  color: aliceblue;
-  font-size: 40px;
-  cursor: pointer;
-}
 
 @media (max-width: 782px) {
   .menu ul {

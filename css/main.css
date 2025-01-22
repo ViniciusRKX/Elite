@@ -60,6 +60,8 @@ body {
   z-index: 1;
 }
 
+
+
 .sobre {
   position: relative;
   display: flex;
@@ -81,10 +83,12 @@ body {
   position: absolute;
   text-align: center;
   color: white;
-  font-size:2vw;
+  font-size: 1.5vw;
+  width: ;
   z-index: 9999;
-  padding: 20px;
-  bottom: 1vh;
+  transform: translate(-50%, 70%);
+  top: 70%;
+  left: 50%;
 }
 .elitegrupo::before {
   content: "";
