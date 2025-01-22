@@ -83,12 +83,13 @@ body {
   position: absolute;
   text-align: center;
   color: white;
-  font-size: 1.5vw;
-  width: ;
   z-index: 9999;
-  transform: translate(-50%, 70%);
+  transform: translate(-50%, 20%);
   top: 70%;
   left: 50%;
+  height: auto;
+  width: 84%;
+  font-size: 2.5vw;
 }
 .elitegrupo::before {
   content: "";
