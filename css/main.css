@@ -125,7 +125,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   .carousel-item span {
     text-align: center;
     line-height: 1;
@@ -141,6 +141,6 @@ body {
   }
 
   .ftestudio a {
-    top: 67%;
+    top: 65%;
   }
 }
