@@ -62,12 +62,14 @@ body {
 
 .formando {
   display: flex;
+  
 }
 .formando img {
   width: 100vw;
   object-fit: cover;
   height: 100vh;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 
@@ -165,6 +167,18 @@ body {
 
   .ftestudio a {
     top: 62%;
+  }
+  .formando {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .formando img {
+    width: 50vw;
+    object-fit: cover;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
   }
 }
 
