@@ -238,6 +238,10 @@ body {
   .content3 img{
     transform: scaleX(-1);
   }
+
+  .content span {
+    font-size: 80%;
+  }
 }
 
 @media (max-width: 390px) {
