@@ -12,12 +12,7 @@ body {
   font-size: 40px;
   top: 93%;
   left: 90%;
-  transition: 0.3s ease;
   filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.463));
-}
-
-.bi-whatsapp:hover{
-  color: #128C7E;
 }
 
 .carousel-item {
