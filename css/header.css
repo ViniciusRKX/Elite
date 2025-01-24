@@ -2,7 +2,7 @@ header {
   background-color: rgba(1, 5, 13, 0);
   box-sizing: border-box;
   position: fixed;
-  padding: 15px 20px;
+  padding: 15px 0px;
   width: 100%;
   z-index: 9999999;
   transition: 0.5s;
@@ -22,7 +22,7 @@ header {
 .menu ul {
   position: relative;
   display: flex;
-  gap: 10px;
+  gap: 13px;
   margin: 0;
   padding: 0;
 }
@@ -34,10 +34,22 @@ header {
   font-size: 18px;
 }
 
+#Whatsapp{
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  border-radius: 5px; 
+}
+#Whatsapp:hover {
+  background-color: #128C7E;
+  
+  
+}
+
 header.scrolled {
   background-color: rgb(2, 9, 22);
   transition: 0.5s;
 }
+
 
 
 @media (max-width: 782px) {
